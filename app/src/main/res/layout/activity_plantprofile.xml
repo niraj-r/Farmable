@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="#81A594">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00628B">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/kavin_the_man"
+            android:onClick="onShowUserProfileClick"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight=".7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight=".95"
+                android:text=""
+                android:textSize="40sp"
+                android:textColor="#E6E6DC"
+                android:layout_gravity="center|left"
+                android:id="@+id/users_name_message"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="onShowSearchPlants"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center|right"
+            android:layout_margin="20dp"
+            android:background="@drawable/add_plants_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

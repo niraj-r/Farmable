@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/green"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="97dp"
+        android:id="@+id/treeLogo"
+        android:background="@drawable/tree"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:text="Farmable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#4c8b81" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:background="@drawable/sign_in_2"
+        android:layout_alignStart="@+id/signupButton"
+        android:layout_marginTop="40dp"
+        android:onClick="onSignInClick"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupButton"
+        android:background="@drawable/sign_up_1"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/loginButton"
+        android:layout_marginTop="20dp"
+        android:onClick="onSignUpClick"/>
+
+</LinearLayout>

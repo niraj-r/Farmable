@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="97dp"
+        android:id="@+id/treeLogo"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tree"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:textColor="#fff"
+            android:id="@+id/users_name_edit_text"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterUserNameButton"
+            android:background="@drawable/sign_in_1"
+            android:onClick="onEnterUserClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>
