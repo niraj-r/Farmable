@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#00628B"
-            android:text="Edibility: If you want to kill yourself"
+            android:text="Edibility: yes"
             android:textSize="20sp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"/>
