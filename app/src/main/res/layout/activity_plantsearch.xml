@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="#81A594">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00628B">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/kavin_the_man"
+            android:onClick="onShowUserProfileClick"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center|left"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight=".7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight=".95"
+                android:text="Plants"
+                android:textSize="40sp"
+                android:textColor="#E6E6DC"
+                android:layout_gravity="center|left"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="onShowSearchPlants"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center|right"
+            android:layout_margin="20dp"
+            android:background="@drawable/search_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Popular Plants"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E6E6DC"
+                    android:onClick="goToTomato">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/basil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Basil"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="#00a651"
+                        android:onClick="goToBasil"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E6E6DC"
+                    android:onClick="goToRoseMary">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/carrot" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Carrots"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="#f26522"
+                        android:onClick="goToCarrot"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:onClick="goToPotato">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E6E6DC">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/lettuce" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Lettuce"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="#39b54a"
+                        android:onClick="goToLettuce"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

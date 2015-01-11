@@ -52,7 +52,7 @@
                 android:adjustViewBounds="true"
                 android:layout_gravity="center|right"
                 android:layout_margin="20dp"
-                android:background="@drawable/add_plants_button" />
+                android:background="@drawable/search_icon" />
 
         </LinearLayout>
 
@@ -101,7 +101,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:padding="10dp"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:onClick="goToRosemary">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -163,7 +164,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:padding="10dp"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:onClick="goToAddPlant">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -173,108 +175,6 @@
                         android:gravity="center"
                         android:background="#E6E6DC"
                          />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:padding="10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="+"
-                        android:textSize="30sp"
-                        android:gravity="center"
-                        android:background="#E6E6DC"/>
 
                 </LinearLayout>
 

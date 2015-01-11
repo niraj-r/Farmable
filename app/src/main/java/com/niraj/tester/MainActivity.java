@@ -49,6 +49,8 @@ public class MainActivity extends ActionBarActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+
     }
 
     @Override
@@ -138,10 +140,26 @@ public class MainActivity extends ActionBarActivity
     }
 
     public void goToTomato(View view) {
-        Intent goTomato = new Intent(this, PlantProfile.class);
-        String currPlant = "Tomato";
+        Intent goTomato = new Intent(this, GardenTomato.class);
 
         startActivity(goTomato);
+    }
+
+    public void goToAddPlant(View view) {
+        Intent goToSearch = new Intent(this, PlantSearch.class);
+
+        startActivity(goToSearch);
+    }
+
+    public void goToPotato(View view) {
+        Intent goPotato = new Intent(this, Potato.class);
+
+        startActivity(goPotato);
+    }
+
+    public void goToRoseMary(View view) {
+        Intent goRosemary = new Intent(this, Rosemary.class);
+        startActivity(goRosemary);
     }
 
     /**
