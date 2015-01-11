@@ -1,0 +1,10 @@
+1
+start Tomato
+science lycopersicum
+lifespan 10
+temperature 15 29
+lightTime 8
+lightIntensity high
+pH 6.4
+waterAmount 2000
+End

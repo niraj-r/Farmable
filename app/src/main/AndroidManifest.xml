@@ -29,6 +29,34 @@
             android:label="Plant Profile"
             android:theme="@style/AppTheme"></activity>
 
+        <activity android:name=".PlantSearch"
+            android:label="Plant Search"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".GardenTomato"
+            android:label="Garden Tomato"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".Potato"
+            android:label="Potato"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".Rosemary"
+        android:label="Rosemary"
+        android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".Basil"
+            android:label="Basil"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".Carrot"
+            android:label="Carrot"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".Lettuce"
+            android:label="Lettuce"
+            android:theme="@style/AppTheme"></activity>
+
     </application>
 
 </manifest>
