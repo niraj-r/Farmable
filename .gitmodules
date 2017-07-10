@@ -1,0 +1,3 @@
+[submodule "Hammy"]
+	path = Hammy
+	url = git@github.com:niraj-r/Hammy.git
